@@ -1,0 +1,83 @@
+# SAE ThingsPlus Ball Mapper
+
+A visualization tool for exploring SAE (Sparse Autoencoder) features using UMAP and ball mapper. 
+**The video demo is save under this repo called `SAE-Explorer-demo.mp4`.**
+
+## Data
+
+1. [Download the data from Google Drive](https://drive.google.com/file/d/1x2Hs-U2VlKHjF9JYOYjU1ohDptbj3Xi5/view?usp=drive_link)
+2. Unzip the downloaded file.
+3. Move the extracted `data` folder into the `backend` directory so that the path is `backend/data/`.
+
+
+## Structure
+
+- `backend/` - Flask API server
+- `frontend/` - React web interface
+
+## Installation
+
+### Backend Setup
+
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+
+2. Create a virtual environment (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Frontend Setup
+Tested environment:
+```
+Node.js version 18.20.8 (node -v)
+npm version 10.8.2 (npm -v)
+```
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+
+2. Install Node.js dependencies:
+   ```bash
+   npm install
+   ```
+
+## Quick Start
+
+1. Start the backend:
+   ```bash
+   cd backend
+   python app.py
+   ```
+
+2. Start the frontend:
+   ```bash
+   cd frontend
+   npm start
+   ```
+
+## Dependencies
+
+### Backend Dependencies
+- **Flask** - Web framework
+- **Flask-CORS** - Cross-origin resource sharing
+- **NumPy** - Numerical computing
+- **Pandas** - Data manipulation
+- **Scikit-learn** - Machine learning utilities
+- **UMAP** - Dimension reduction
+- **SciPy** - Scientific computing
+- **Matplotlib/Seaborn** - Visualization (optional)
+
+### Frontend Dependencies
+- **React** - UI framework
+- **D3.js** - Data visualization
