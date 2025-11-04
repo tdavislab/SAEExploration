@@ -1,4 +1,4 @@
-# SAE ThingsPlus Ball Mapper
+# SAE Semantic Explorer
 
 A visualization tool for exploring SAE (Sparse Autoencoder) features using UMAP and ball mapper. 
 **The video demo is save under this repo called `SAE-Explorer-demo.mp4`.**
