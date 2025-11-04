@@ -65,19 +65,12 @@ npm version 10.8.2 (npm -v)
    cd frontend
    npm start
    ```
+   
+## 📚 Cite Our Work
+```bibtex
+@inproceedings{yan2025visual,
+  title={Visual Exploration of Feature Relationships in Sparse Autoencoders with Curated Concepts},
+  author={Yan, Xinyuan and Liu, Shusen and Thopalli, Kowshik and Phillips, Bei Wang},
+  booktitle={Mechanistic Interpretability Workshop at NeurIPS 2025}
+}
 
-## Dependencies
-
-### Backend Dependencies
-- **Flask** - Web framework
-- **Flask-CORS** - Cross-origin resource sharing
-- **NumPy** - Numerical computing
-- **Pandas** - Data manipulation
-- **Scikit-learn** - Machine learning utilities
-- **UMAP** - Dimension reduction
-- **SciPy** - Scientific computing
-- **Matplotlib/Seaborn** - Visualization (optional)
-
-### Frontend Dependencies
-- **React** - UI framework
-- **D3.js** - Data visualization
