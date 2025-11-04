@@ -5,6 +5,14 @@ A visualization tool for exploring SAE (Sparse Autoencoder) features using UMAP 
 **The video demo is save under this repo called `SAE-Explorer-demo.mp4`.**
 
 
+## 🎬 Demo Video
+
+<video width="640" controls>
+  <source src="SAE-Explorer-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Data
 
 1. [Download the data from Google Drive](https://drive.google.com/file/d/1x2Hs-U2VlKHjF9JYOYjU1ohDptbj3Xi5/view?usp=drive_link)
