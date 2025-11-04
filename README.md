@@ -1,7 +1,7 @@
 # SAE Semantic Explorer
 
 A visualization tool for exploring SAE (Sparse Autoencoder) features using UMAP and ball mapper. 
-This work has been published at Mechanistic Interpretability Workshop at NeurIPS 2025.
+**Paper:** *Visual Exploration of Feature Relationships in Sparse Autoencoders with Curated Concepts* — published at the [Mechanistic Interpretability Workshop at NeurIPS 2025](https://mechinterpworkshop.com/).
 **The video demo is save under this repo called `SAE-Explorer-demo.mp4`.**
 
 ## Data
