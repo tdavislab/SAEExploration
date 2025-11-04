@@ -6,7 +6,7 @@ A visualization tool for exploring SAE (Sparse Autoencoder) features using UMAP 
 
 
 ## 🎬 Demo Video
-[▶️ Watch the demo on YouTube](https://youtu.be/XqQ-dHZEzIc)
+[![Demo Video](https://github.com/tdavislab/SAEExploration/blob/main/interface.png)](https://youtu.be/XqQ-dHZEzIc)
 
 ## Data
 
